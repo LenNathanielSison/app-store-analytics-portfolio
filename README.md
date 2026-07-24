@@ -21,26 +21,30 @@ The Apple App Store is highly competitive, making it difficult for developers to
 ## Insights
 1) Apps by Category
 ![Apps by Category](images/Apps%20by%20Category.png)
-- Games has the highest app count, followed by Entertainment and Utilities.
-- Category distribution is uneven, with a long tail of smaller categories.
-Insight: Competition is concentrated in a few large categories.
+- Games leads by app volume, with Entertainment and Utilities also heavily represented, indicating these are the most saturated segments in the App Store.
+- The category mix is highly skewed: a few genres capture most listings, while many others remain relatively underrepresented.
+
+**Insight:** Market competition is concentrated in dominant categories, so new apps in these spaces need strong differentiation, while smaller categories may offer easier visibility and niche growth opportunities.
 
 2) Average Rating by Category
 ![Average Rating by Category](images/Average%20Rating%20by%20Category.png)
-- Most categories have average ratings in the low-to-mid 4 range.
-- Rating differences across categories are moderate.
-Insight: User quality expectations are consistently high across categories.
+- Average ratings cluster tightly in the low-to-mid 4 range across most categories, showing generally strong user satisfaction platform-wide.
+- Differences between categories are present but not large, suggesting category alone is not the main driver of rating performance.
+  
+**Insight:** Execution quality (usability, stability, and value) matters more than category choice alone in achieving higher ratings.
 
 3) Free vs Paid Apps
 ![Free vs Paid Apps](images/Free%20vs%20Paid%20Apps.png)
 - Free apps represent ~91.8% of all apps; paid apps form a small minority.
-Insight: The market is strongly free-first.
+  
+**Insight:** The market is strongly free-first.
 
 4) Rating vs Number of Reviews
 ![Rating vs Number of Reviews](images/Rating%20vs%20Number%20of%20Reviews.png)
 - Log-scale scatter and trendline show a slight positive relationship between reviews and rating.
 - Most apps cluster between ratings 3.5–5.0 across different review volumes.
-Insight: Higher visibility often aligns with solid ratings, but high-rated low-review apps also exist.
+  
+**Insight:** Higher visibility often aligns with solid ratings, but high-rated low-review apps also exist.
 
 ## Recommendations
 - Promote high-rated apps with low review counts to improve discoverability.

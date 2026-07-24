@@ -6,7 +6,7 @@ The Apple App Store is highly competitive, making it difficult for developers to
 ## Data
 - **Source:** Kaggle  
 - **Reference:** [https://www.kaggle.com/code/ashyou09/apple-app-store-2026-eda ](https://www.kaggle.com/datasets/ashyou09/apple-app-store-dataset-2026-edition/data) 
-- **Scope of Year:** 2023–2024  
+- **Scope of Year:** 2023–2026  
 - **Rows:** *1500*  
 - **Columns:** *16*  
 

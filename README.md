@@ -20,24 +20,24 @@ The Apple App Store is highly competitive, making it difficult for developers to
 
 ## Insights
 1) Apps by Category
-[Portfolio/images/Apps by Category.png]
+![Apps by Category](images/Apps%20by%20Category.png)
 - Games has the highest app count, followed by Entertainment and Utilities.
 - Category distribution is uneven, with a long tail of smaller categories.
 Insight: Competition is concentrated in a few large categories.
 
 2) Average Rating by Category
-[Portfolio/images/Average Rating by Category.png]
+![Average Rating by Category](images/Average%20Rating%20by%20Category.png)
 - Most categories have average ratings in the low-to-mid 4 range.
 - Rating differences across categories are moderate.
 Insight: User quality expectations are consistently high across categories.
 
 3) Free vs Paid Apps
-[Portfolio/images/Free vs Paid Apps.png]
+![Free vs Paid Apps](images/Free%20vs%20Paid%20Apps.png)
 - Free apps represent ~91.8% of all apps; paid apps form a small minority.
 Insight: The market is strongly free-first.
 
 4) Rating vs Number of Reviews
-[Portfolio/images/Rating vs Number of Reviews.png]
+![Rating vs Number of Reviews](images/Rating%20vs%20Number%20of%20Reviews.png)
 - Log-scale scatter and trendline show a slight positive relationship between reviews and rating.
 - Most apps cluster between ratings 3.5–5.0 across different review volumes.
 Insight: Higher visibility often aligns with solid ratings, but high-rated low-review apps also exist.

@@ -11,18 +11,15 @@ The goal is to provide practical, data-based guidance for app launch and growth 
 - **Source:** Kaggle  
 - **Reference:** [Apple App Store Dataset 2026 Edition](https://www.kaggle.com/datasets/ashyou09/apple-app-store-dataset-2026-edition/data)
 - **Scope of Year:** 2019–2026  
-- **Rows:** *11,500*  
-- **Columns:** *16*  
+- **Rows:** 11,500  
+- **Columns:** 16  
 
 ---
 
 ## Methodology
-1. **Data formatting and preparation**
-   - Adjusted/standardized data types for relevant columns.
-
-2. **Insight extraction**
-   - Used category, rating, and review patterns in Power BI visuals to extract insights.
-   - Dashboard development with slicers (Type, Genre, Rating)
+- The dataset was prepared by standardizing data types for key fields such as user rating, rating count,and price.
+- Descriptive analysis was conducted in Power BI to examine app distribution by category, average rating by category, free vs paid composition, and rating-band concentration using a heatmap.
+- Findings from these visual analyses were synthesized to produce business recommendations on category selection and pricing strategy.
 
 ---
 
@@ -42,7 +39,7 @@ The goal is to provide practical, data-based guidance for app launch and growth 
 - Free apps represent ~91.8% of all apps; paid apps form a small minority.
 
 ### 4) Category Rating Distribution
-![Category Rating Distribution](images/Category%20vs%20Rating%20of%20Distribution.png)
+![Category Rating Distribution](images/Category%20Rating%20Distribution.png)
 - Most apps are concentrated in high rating bands (4.0–4.4 and 4.5–5.0), showing generally strong user satisfaction across categories.
 - Games, Entertainment, and Utilities combine high app volume with many highly rated apps, indicating both strong demand and intense competition.
   

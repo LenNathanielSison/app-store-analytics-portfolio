@@ -1,26 +1,28 @@
 # App Store Analytics
 
 ## Problem Statement
-The Apple App Store is highly competitive, making it difficult for developers to decide which app category and pricing strategy will perform best. This project analyzes Apple App Store listing data to identify relationships between app characteristics (such as category, price level, and review activity) and performance indicators like user ratings. The goal is to generate practical insights that can support better app launch and market positioning decisions.
+The Apple App Store is highly competitive, with millions of apps available and many categories competing for user attention.
+In this project dataset, there are 11,500 apps across 16 features, making it difficult for developers to decide which category and pricing strategy are most effective.
+The goal is to provide practical, data-based guidance for app launch and growth decisions.
 
 ---
 
 ## Data
 - **Source:** Kaggle  
 - **Reference:** [Apple App Store Dataset 2026 Edition](https://www.kaggle.com/datasets/ashyou09/apple-app-store-dataset-2026-edition/data)
-- **Scope of Year:** 2023–2026  
-- **Rows:** *1500*  
+- **Scope of Year:** 2019–2026  
+- **Rows:** *11,500*  
 - **Columns:** *16*  
 
 ---
 
 ## Methodology
-- Data cleaning & preprocessing (type validation, null/invalid handling)
-- Exploratory Data Analysis (EDA) on category, rating, and review patterns
-- Data transformation in Power BI (KPI measures and aggregations)
-- Dashboard development with slicers (Type, Genre, Rating)
-- Scatter analysis with log-scale X-axis and trendline
-- Insight extraction and recommendation building
+1. **Data formatting and preparation**
+   - Adjusted/standardized data types for relevant columns.
+
+2. **Insight extraction**
+   - Used category, rating, and review patterns in Power BI visuals to extract insights.
+   - Dashboard development with slicers (Type, Genre, Rating)
 
 ---
 
@@ -39,19 +41,18 @@ The Apple App Store is highly competitive, making it difficult for developers to
 ![Free vs Paid Apps](images/Free%20vs%20Paid%20Apps.png)
 - Free apps represent ~91.8% of all apps; paid apps form a small minority.
 
-### 4) Rating vs Number of Reviews
-![Rating vs Number of Reviews](images/Rating%20vs%20Number%20of%20Reviews.png)
-- Log-scale scatter and trendline show a slight positive relationship between reviews and rating.
-- Most apps cluster between ratings 3.5–5.0 across different review volumes.
+### 4) Category Rating Distribution
+![Category Rating Distribution](images/Category%20vs%20Rating%20of%20Distribution.png)
+- Most apps are concentrated in high rating bands (4.0–4.4 and 4.5–5.0), showing generally strong user satisfaction across categories.
+- Games, Entertainment, and Utilities combine high app volume with many highly rated apps, indicating both strong demand and intense competition.
   
 ---
 
 ## Recommendations
 - Promote high-rated apps with low review counts to improve discoverability.
-- Use freemium/free-first strategies where suitable, given market structure.
-- Differentiate strongly in saturated categories (especially Games/Entertainment).
+- Start with a freemium model, then gradually introduce paid features/content that users are willing to buy so the business can generate sustainable profit.
+- In crowded categories like Games and Entertainment, make your app stand out with a clear unique value.
 - Track ratings and review trends continuously for quality control.
-- Use category and type segmentation for launch and portfolio planning decisions.
 
 ---
 
